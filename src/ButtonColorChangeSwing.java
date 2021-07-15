@@ -8,6 +8,7 @@ public class ButtonColorChangeSwing implements ActionListener {
 
     ButtonColorChangeSwing() {
         frame = new JFrame("Button Color Change");
+
         redButton = new JButton("RED");
         redButton.setBounds(120, 90, 150, 20);
         redButton.addActionListener(this);
