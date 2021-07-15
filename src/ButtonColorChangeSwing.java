@@ -32,7 +32,5 @@ public class ButtonColorChangeSwing implements ActionListener {
             frame.getContentPane().setBackground(Color.BLUE);
     }
 
-    public static void main(String[] args) {
-        new ButtonColorChangeSwing();
-    }
+    public static void main(String[] args) { new ButtonColorChangeSwing(); }
 }
