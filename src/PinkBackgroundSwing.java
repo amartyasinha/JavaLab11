@@ -1,5 +1,5 @@
 import javax.swing.*;
-import java.awt.*;
+import java.awt.Color;
 
 public class PinkBackgroundSwing extends JFrame {
     JLabel lbl;
