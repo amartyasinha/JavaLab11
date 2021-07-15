@@ -4,16 +4,16 @@ import java.awt.event.*;
 
 public class ButtonColorChangeSwing implements ActionListener {
     JFrame frame;
-    Button redButton, blueButton;
+    JButton redButton, blueButton;
 
     ButtonColorChangeSwing() {
         frame = new JFrame("Button Color Change");
-        redButton = new Button("RED");
+        redButton = new JButton("RED");
         redButton.setBounds(120, 90, 150, 20);
         redButton.addActionListener(this);
         frame.add(redButton);
 
-        blueButton = new Button("BLUE");
+        blueButton = new JButton("BLUE");
         blueButton.setBounds(120, 150, 150, 20);
         blueButton.addActionListener(this);
         frame.add(blueButton);
