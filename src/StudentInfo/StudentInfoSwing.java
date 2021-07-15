@@ -54,6 +54,5 @@ public class StudentInfoSwing {
         frameInfo.setVisible(true);
         frameInfo.setLayout(null);
         frameInfo.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-
     }
 }
