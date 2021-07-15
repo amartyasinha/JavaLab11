@@ -1,8 +1,6 @@
 package StudentInfo;
 
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
 
 public class CGPASwing {
     JFrame frameCGPA;
